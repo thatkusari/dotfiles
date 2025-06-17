@@ -1,0 +1,53 @@
+* {
+    font-family: Maple Mono NF;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 0;
+    background: transparent;
+}
+
+window#waybar {
+    background-color: rgba(119, 68, 61, 0.5);
+    border-radius: 14px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-style: none;
+}
+
+#battery,
+#network,
+#clock,
+#custom-applauncher,
+#tray,
+#workspaces > *,
+#pulseaudio,
+#menu,
+#custom-power,
+#custom-media {
+    background-color: #E4C0B4;
+    margin: 6px;
+    border-radius: 8px;
+    padding: 4px 16px;
+
+    color: #69504d;
+    border-style: none;
+
+    transition-duration: 120ms;
+}
+
+#network, #custom-applauncher {
+    padding-right: 20px;
+}
+
+#battery:hover,
+#network:hover,
+#clock:hover,
+#custom-applauncher:hover,
+#tray:hover,
+#workspaces > *:hover,
+#pulseaudio:hover,
+#menu:hover,
+#custom-power:hover,
+#custom-media:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

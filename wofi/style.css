@@ -1,0 +1,43 @@
+* {
+    font-family:  Maple Mono NF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+#window {
+    margin: 0px;
+    border: 5px solid #E4C0B4;
+    background-color: rgba(119, 68, 61, 0.5);
+    border-radius: 14px;
+}
+
+#input {
+    margin: 16px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #E4C0B4;
+    border: none;
+    border-radius: 4px;
+}
+
+#scroll {
+    margin-bottom: 16px;
+}
+
+#entry {
+    margin: 0.5px 16px;
+    background-color: #E4C0B4;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color:#69504d;
+
+}
+
+#entry > box {
+    margin-left: 10px;
+}
+
+#entry image {
+    padding-right: 5px;
+}
